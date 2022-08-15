@@ -1,0 +1,21 @@
+
+body {
+  background-image: url('../image/istockphoto-1301482898-612x612.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.order__composition {
+  height: 120px;
+  overflow-y: scroll;
+}
+
+.order__addition {
+  height: 70px;
+}
+
+.order__composition::-webkit-scrollbar{
+  width: 5px;
+  background: #ffffff;
+}
